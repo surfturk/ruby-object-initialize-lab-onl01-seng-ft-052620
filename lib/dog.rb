@@ -1,5 +1,5 @@
 require = "pry"
-
+attr_accessor :name, :breed
 
 class Dog
   def initialize(name, breed = "Mutt")
